@@ -1,0 +1,24 @@
+.Cheader {
+    background-color: rgb(250, 250, 250);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: "Helvetica";
+}
+
+
+.Cbody {
+    padding: 2rem;
+    background-color: rgb(250, 250, 250);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Citem {
+    padding: 0.5rem 0;
+    display: block;
+    width: 100%;
+}

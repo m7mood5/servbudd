@@ -1,0 +1,36 @@
+.container {
+    padding: 3rem 0;
+    background-color: #FAFAFA;
+    position: relative;
+    border-radius: 0 0 20% 20%;
+}
+
+.avatar {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.boxcontent {
+    border: solid 3px;
+    padding: 6rem 2rem 2rem;
+    border-radius: 1rem;
+    margin-top: -45px;
+    text-align: center;
+}
+
+.boxcontent p {
+    font-size: 13px;
+    font-weight: 400;
+    min-height: 14rem;
+}
+
+.boxcontent h5 {
+    font-family: "Helvetica";
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}

@@ -1,0 +1,76 @@
+.sbutton {
+    background-color: #AAFF00;
+    color: #152425;
+    padding: 0 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 0 !important;
+    outline: 0 !important;
+    position: absolute;
+    border: solid 2px;
+    top: 0.2rem;
+    right: 0.2rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+}
+
+.sbutton:hover {
+
+    background-color: #6C63FF;
+    border: solid 2px #6C63FF;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.4s;
+}
+
+.ssbutton {
+    background-color: #AAFF00;
+    color: #152425;
+    padding: 0 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    box-shadow: 0 0 0 !important;
+    outline: 0 !important;
+    position: absolute;
+    border: solid 2px;
+    line-height: 2rem;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ssbutton:hover {
+
+    background-color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    color: #152425;
+    transition: all ease-in-out 0.4s;
+}
+
+.cbutton {
+    background-color: #152425;
+    color: #FFFFFF;
+    border-radius: 7px;
+    box-shadow: 0 0 0 !important;
+    outline: 0 !important;
+    border: solid 2px;
+    top: 0.2rem;
+    right: 0.2rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+}
+
+.cbutton:hover {
+
+    background-color: #6C63FF;
+    border: solid 2px #6C63FF;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.4s;
+}

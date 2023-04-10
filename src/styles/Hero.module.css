@@ -1,0 +1,67 @@
+.cover {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28rem 0 12rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url(../../public/imgs/cover.png)
+}
+
+@media (min-width: 768px) {
+    .cover {
+        background-size: contain;
+    }
+}
+
+
+
+.locationbox {
+    max-width: 40rem;
+    padding: 3rem 6rem;
+    background-color: rgb(21, 36, 37, 0.6);
+    margin: 0 auto;
+    margin-top: -200px;
+    display: flex;
+    border-radius: 1rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .locationbox {
+        padding: 3rem 1rem;
+    }
+
+}
+
+.locationtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .locationtitle {
+        font-size: 1rem;
+    }
+}
+
+
+.locationinput {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    text-align: left;
+}
+

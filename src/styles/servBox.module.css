@@ -1,0 +1,44 @@
+
+
+.serviceBox {
+    position: relative;
+    display: inline-block;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-top: 16rem;
+    border: solid 1px;
+}
+
+.serviceContent {
+    position: relative;
+}
+
+.serviceContent h5 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.serviceContent h5:hover {
+    color: red
+}
+
+
+.serviceDesc {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.serviceNumber {
+    position: absolute;
+    padding: 0.8rem 1.8rem;
+    background-color: rgb(21 36 37 / 55%);
+    border-radius: 5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+}
